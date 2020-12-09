@@ -23,7 +23,6 @@ header {
 .boton-navegacion {
   background: none;
   border: none;
-  width: 2rem;
   height: 2rem;
 }
 
@@ -33,4 +32,5 @@ header {
 
 .redondo {
   border-radius: 50%;
+
 }
