@@ -87,7 +87,7 @@ header {
 
 }
 
-.estadistica-container
+.estadistica-container,.nav-int-container
 {
   border-top: 1px solid #9b9b9b;
   border-bottom: 1px solid #9b9b9b; 
@@ -96,6 +96,13 @@ header {
   padding: 0.5rem 1rem;
   font-size: 14px;
 
+}
+
+.nav-int-container
+{
+  display: flex;
+    border-top: none;
+    justify-content: space-around;
 }
 
 .estadistica-container p
