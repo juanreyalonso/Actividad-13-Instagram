@@ -7,8 +7,22 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-}
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #262626;
 
+  
+}
+ h1{
+   margin: 0;
+   font-size: 28px;
+   line-height: 32px;
+   font-weight: 300;
+ }
+
+ h2{
+   font-size: 16px;
+ }
 header {
   display: flex;
   justify-content: space-between;
@@ -27,6 +41,13 @@ header {
   height: 2rem;
 }
 
+.call-to-action{
+  background: none;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  padding: 2px 10px;
+}
+
 .boton-navegacion img {
   width: 100%;  
 }
@@ -34,3 +55,35 @@ header {
 .redondo {
   border-radius: 50%;
 }
+
+.flex-container-row{
+  display: flex;
+  margin: 0.5rem;
+  padding-left: 1rem;
+
+}
+
+.container-perfil{
+  display: flex;
+
+}
+
+.imagen-perfil-container {
+    width: 77px;
+}
+
+.imagen-perfil-container img{
+  width: 100%;
+}
+
+.descripcion  .followers{
+  margin: 5px 0;
+  font-size: 12px;
+}
+.descripcion h2, .descripcion p, .descripcion a{
+  margin: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
