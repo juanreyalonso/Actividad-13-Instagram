@@ -87,3 +87,35 @@ header {
 
 }
 
+.estadistica-container
+{
+  border-top: 1px solid #9b9b9b;
+  border-bottom: 1px solid #9b9b9b; 
+  justify-content: space-between;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+
+}
+
+.estadistica-container p
+{
+  margin: 0;
+  align-content: center;
+}
+.estadisticas-item
+{
+  text-align: center;
+}
+.estadisticas-item span
+{
+  font-weight: bold;
+}
+.estadisticas-item p
+{
+  color: #9b9b9b;
+}
+.descripcion
+{
+  margin-bottom: 1rem;
+}
