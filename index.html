@@ -4,66 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="./estilos/style.css">
     <title>Instagram</title>
 </head>
 
 <body>
     <!-- Encabezado -->
     <header>
+        
         <!-- Logotipo de plataforma -->
-        <img src="/imagenes/logo.png" class="logo">
+        <img src="./imagenes/logo.png" class="logo">
         <!-- Acciones -->
         <div class="barra-navegacion">
             <!-- Botón Portada -->
             <button class="boton-navegacion">
-                <img src="/imagenes/icon-home.svg">
+                <img src="./imagenes/icon-home.svg">
             </button>
 
             <!-- Botón Mensajes -->
             <button class="boton-navegacion">
-                <img src="/imagenes/icon-direct.svg">
+                <img src="./imagenes/icon-direct.svg">
             </button>
 
             <!-- Botón Explorar -->
             <button class="boton-navegacion">
-                <img src="/imagenes/icon-find-people.svg">
+                <img src="./imagenes/icon-find-people.svg">
             </button>
 
             <!-- Botón "Me gusta" -->
             <button class="boton-navegacion">
-                <img src="/imagenes/icon-like.svg">
+                <img src="./imagenes/icon-like.svg">
             </button>
 
             <!-- Botón de perfil -->
             <button class="boton-navegacion">
-                <img src="/imagenes/doctadevs.jpg" class="redondo">
+                <img src="./imagenes/doctadevs.jpg" class="redondo">
             </button>
         </div>
     </header>
 
     <!-- Perfil -->
-    <section>
-        <div>
-            <!-- Foto de perfil -->
-            <img>
-
-            <!-- Nombre de cuenta -->
-            <h1>doctadevs_</h1>
-
-            <!-- Botón "..." -->
-            <button>...</button>
-
-            <!-- Botón "Message" (Enviar mensaje) -->
-            <button>Enviar mensaje</button>
-
-            <!-- Botón "Follow/Unfollow" (Seguir/Dejar de seguir) -->
-            <button>Dejar de seguir</button>
-
-            <!-- Botón "More actions" (Más acciones) -->
-            <button>🔻</button>
+    <section class="flex-container-row">
+        
+         <div class="imagen-perfil-container">
+                <img src="./imagenes/doctadevs.jpg" class="redondo">
         </div>
-        <div>
+            <!-- Foto de perfil -->
+         <div>   
+         <div class="  flex-container-row container-perfil">
+             <!-- Nombre de cuenta -->
+                <h1>doctadevs_</h1>
+
+                <!-- Botón "..." -->
+                <button class="boton-navegacion"> <img src="./imagenes/icon-more.svg"> </button>
+         </div>
+
+         <div class="flex-container-row">
+
+                <!-- Botón "Message" (Enviar mensaje) -->
+                <button class="call-to-action"> Mensaje</button>
+
+                <!-- Botón "Follow/Unfollow" (Seguir/Dejar de seguir) -->
+                <button class="call-to-action">No seguir</button>
+
+                <!-- Botón "More actions" (Más acciones) -->
+                <button class="call-to-action">🔻</button>
+         
+        </div>
+    </div>
+        
+        
+    </section>
+
+    <section class="descripcion"> 
             <!-- Nombre de perfil -->
             <h2>doctadevs</h2>
 
@@ -73,9 +86,10 @@
             <!-- Enlace -->
             <a href="https://wa.me/549351816285">wa.me/549351816285</a>
 
+        
             <!-- Indicador de seguidores -->
-            <p>Seguidos por PerfilUno, PerfilDos, PerfilTres y 42 más</p>
-        </div>
+            <p class="followers">Seguidos por PerfilUno, PerfilDos, PerfilTres y 42 más</p>
+    
     </section>
 
     <!-- Estadísticas -->
