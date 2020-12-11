@@ -126,3 +126,16 @@ header {
 {
   margin-bottom: 1rem;
 }
+
+.contenido-container
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2px;
+  
+}
+.contenido-container img
+{
+  width:100%;
+    
+}
